@@ -19,7 +19,7 @@ Code colors:
 - Background card - #14253d
 - Heading - #ffffff
 - Description - #8bacda
-- 0.041 ETH - #00fff7
+- 0.041 ETH- #00fff7
 - 3 days left - #8bacda
 - Creation of - #8bacda
 
