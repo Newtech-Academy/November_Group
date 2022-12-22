@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: #e0e8ff;
+            background-image: url('./images/pattern-background-desktop.svg');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: 100%;
+        }
+        .img {
+            border-top-left-radius: 15px;
+            border-top-right-radius: 15px;
+        }
+        .td {
+            padding-left: 50px;
+            padding-right: 50px;
+        }
+        button {
+            background-color: #3829e0;
+            color: white;
+            border-radius: 10px;
+            width: 100%;
+            height: 50px;
+            font-size: larger;
+            border: #3829e0;
+        }
+    </style>
+</head>
+<body>
+    <!-- Tabel cu 5 linii si o coloana -->
+    <table style="border-radius: 15px; background-color: #ffffff; width:fit-content; vertical-align: middle;" align="center">
+        <!-- Prima linie - poza hero-->
+<tr>
+    <td><img src="./images/illustration-hero.svg" class="img" alt="Illustration hero"></td>
+</tr>
+<!-- A doua linie - Heading and description -->
+<tr>
+    <td align="center" style="color: #1f2f56;">
+        <h1><b>Order summary</b></h1>
+        <p>You can now listen to millions of songs,<br>
+            audiobooks, and podcasts on any device<br>
+            anywhere you like!</p>
+    </td>
+</tr>
+<!-- A treia linie tabel cu 1 linie si 3 coloane -->
+<tr>
+    <td class="td" style="padding-bottom: 30px;">
+        <table style="background-color:#f5f7ff; border-radius: 15px; font-size: larger;" width="100%">
+            <tr>
+                <td style="padding-left: 20px;"><img src="./images/icon-music.svg" width="50px" style="vertical-align: middle;"></td>
+                <td>
+                    <p><b>Annual plan</b><br>
+                    <font color="#7280a7">$59.99/year</font></p>
+                </td>
+                <td style="color: #3829e0; padding-right: 20px;" width="40%" align="right"><u>Change</u></td>
+            </tr>
+        </table>
+    </td>
+</tr>
+<!-- A patra linie - button -->
+<tr>
+    <td class="td">
+        <a href=""><button>Proceed to payment</button></a>
+    </td>
+</tr>
+<br>
+<!-- A 5a linie... cancel.. -->
+<tr height="60px">
+    <td width="100%" align="center" style="font-size: larger;">Cancel order</td>
+</tr>
+    </table>
+</body>
+</html>
