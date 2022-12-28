@@ -1,0 +1,66 @@
+body {
+    background-color: #e0e8ff;
+    background-image: url('../images/pattern-background-desktop.svg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    font-family: 'Montserrat', sans-serif;
+   
+
+    
+}
+/*Card*/
+.main-card {
+    background-color: #ffffff;
+    width: 400px;
+    border-radius: 30px;
+    
+    margin: auto;
+}
+/*Top Image*/
+.illustration-hero {
+    width: 400px;
+    height: 250px;
+    background-image: url('../images/illustration-hero.svg');
+    background-repeat: no-repeat;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+/*Description*/
+.description {
+    padding: 3% 10%;
+    text-align: center;
+}
+/*Audio div*/
+.audio {
+    background-color: #f5f7ff;
+    padding: 3%;
+    margin: 3% 10%;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.anual-plan {
+    padding-left: 20px;
+    line-height: 0.5;
+    
+}
+.change {
+    padding-left: 40px;
+}
+/*Buttons*/
+.buttons {
+    padding-bottom: 3%;
+    margin-top: 40px;
+    text-align: center;
+}
+.button1 {
+    font-weight: 700;
+    font-size: 1rem;
+    color: #ffffff;
+    background-color: #3829e0;
+    border-radius: 10px;
+    border: none;
+    padding: 3% 25%;
+    box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.2);
+}
