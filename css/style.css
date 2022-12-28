@@ -1,0 +1,70 @@
+img {
+    padding: 10% 15%;
+}
+h1 {
+    padding-left: 15%;
+    font-family: 'Teko', sans-serif;
+    color: #fff;
+    font-size: 3rem;
+    font-weight: 400;
+}
+p {
+    font-family: 'Montserrat', sans-serif;
+    padding: 10% 15%;
+    color: #ffffffbf;
+}
+button {
+    margin-left: 15%;
+}
+/*Card*/
+.main-card {
+    display: flex;
+    
+}
+/*Sedan Card*/
+.sedan-card {
+    width: 300px;
+    height: 550px;
+    background-color: #e38826;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.sedan-button {
+    margin-top: 38px;
+    padding: 5% 10%;
+    border-radius: 30px;
+    border: none;
+    color: #e38826;
+    font-weight: 700;
+}
+/*Suvs Card*/
+.suvs-card {
+    width: 300px;
+    height: 550px;
+    background-color: #006970;
+}
+.suvs-button {
+    margin-top: 20px;
+    padding: 5% 10%;
+    border-radius: 30px;
+    border: none;
+    color: #006970;
+    font-weight: 700;
+}
+/*Luxury Card*/
+.luxury-card {
+    width: 300px;
+    height: 550px;
+    background-color: #004241;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.luxury-button {
+    margin-left: 15%;
+    margin-top: 20px;
+    padding: 5% 10%;
+    border-radius: 30px;
+    border: none;
+    color: #004241;
+    font-weight: 700;
+}
