@@ -1,35 +1,21 @@
-# November Group
+## Welcome! 👋
 
-Homework and Practice Repo for 15th November Group
+Thanks for checking out this front-end coding challenge.
 
-This is the Git Repository for participants of 15th november course group. In this place you can upload your homeworks and exercises to be code reviewed and approved.
+## The challenge
 
-## How does this work?
+Your challenge is to build out two forms, a restaurant feedback form and a camp registration. 
 
--   The teacher will give you the asignment name for example ('demo-project')
--   You clone the repo, create a branch with your own name and create a pull request to be approved and reviewed.
--   Generally, the reviews are done all week, untill Monday 18:00
+## Where to find everything
 
-# Installation guide:
+You will find the design of the forms inside the `/design` folder.
 
-Download [https://desktop.github.com/]
+## Building your project
 
-## Clone Repo
+- Download the starter code
+- Set up the project with version control (e.g. Git)
+- Read the README.md file and have a look around the project
+- Set up your project/file architecture however you want
+- Start coding!
 
-![Clone Repo](https://i.imgur.com/b1mao7A.png)
-
-## Create a new Branch
-
-![Create a branch](https://i.imgur.com/GtX4PdP.png)
-
-## Commit your Work
-
-![Commit Work](https://i.imgur.com/M9Sanco.png)
-
-## Create a pull request
-
-![Push Origin](https://i.imgur.com/Vper1Zh.png)
-
-![Create Pull Request](https://i.imgur.com/fL5DYMs.png)
-
-![Create Pull Request](https://i.imgur.com/VbzibuC.png)
+**Have fun building!** 🚀
