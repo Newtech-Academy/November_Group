@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form 2</title>
+</head>
+<body>
+    <form action="www.wawiwa.com" method="post">
+      <table border="1">
+        <tr>
+            <td>
+             <fieldset>
+                <legend>Participant Information</legend>
+                Participant 1<br>
+                <p>First Name<span style="color:red">*</span></p>
+                <input type="text" name="fname" style="width:1300px;" required>
+                <p>Activity<span style="color:red">*</span></p>
+                <input type="text" name="activity" style="width:1300px;" required>
+                <p>Fee ($)<span style="color:red">*</span></p>
+                <input type="text" name="fee" style="width:1300px;" required>
+                <p>Birth Date<span style="color:red">*</span></p>
+                <input type="date" name="bday" style="width:1300px;" required>
+                <p>Grade<span style="color:red">*</span></p>
+                <select name="grade" style="width:1300px;" required>
+                    <option value="Please choose the grade">Please choose the grade</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                </select>
+
+              <p>Participant 2</p><br>
+              <p>First Name<span style="color:red">*</span></p>
+              <input type="text" name="fname" style="width:1300px;" required>
+              <p>Activity<span style="color:red">*</span></p>
+              <input type="text" name="activity" style="width:1300px;" required>
+              <p>Fee ($)<span style="color:red">*</span></p>
+              <input type="text" name="fee" style="width:1300px;" required>
+              <p>Birth Date<span style="color:red">*</span></p>
+              <input type="date" name="bday" style="width:1300px;" required>
+              <p>Grade<span style="color:red">*</span></p>
+              <select name="grade" style="width:1300px;" required>
+                  <option value="Please choose the grade">Please choose the grade</option>
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+              </select>
+
+              <p>City Resident?</p>
+              <p>(non-city residents add $5.00 for each participant)</p>
+              <input type="radio" name="city">Yes - I am a city resident<br>
+              <input type="radio" name="city">No - I am not a city resident<br>
+
+              <input type="submit" value="Calculate" style="background-color:green; color:white;">
+             </fieldset>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <fieldset>
+                    <legend>Household/Adult Primary Contact</legend>
+                    <table>
+                        <tr>
+                            <td>
+                                <p>First Name<span style="color:red">*</span></p>
+                                <input type="text" name="fname" style="width:650px;" required>
+                            </td>
+
+                            <td>
+                                <p>Last Name<span style="color:red">*</span></p>
+                                <input type="text" name="lname" style="width:650px;" required>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                <p>Address 1<span style="color:red">*</span></p>
+                                <input type="text" name="address1" style="width:650px;" required>
+                            </td>
+
+                            <td>
+                                <p>Address 2<span style="color:red">*</span></p>
+                                <input type="text" name="address2" style="width:650px;" required>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                <p>City<span style="color:red">*</span></p>
+                                <input type="text" name="city" style="width:650px;" required>
+                            </td>
+
+                            <td>
+                                <p>State<span style="color:red">*</span></p>
+                                <input type="text" name="state" style="width:650px;" required>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                <p>Email<span style="color:red">*</span></p>
+                                <input type="email" name="email" style="width:650px;" required>
+                            </td>
+                            
+                            <td>
+                                <p>Phone<span style="color:red">*</span></p>
+                                <input type="text" name="phone" style="width:650px;" required>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                <p>ZIP<span style="color:red">*</span></p>
+                                <input type="text" name="zip" style="width:650px;" required>
+                            </td>
+
+                            <td>
+                                <p>Relationship to Participants<span style="color:red">*</span></p>
+                                <input type="radio" name="relationship">Self<br>
+                                <input type="radio" name="relationship">Mother<br>
+                                <input type="radio" name="relationship">Father<br>
+                                <input type="radio" name="relationship">Guardian<br>
+                                <input type="radio" name="relationship">Other<br>
+                            </td>
+                        </tr>
+                    </table>
+                </fieldset>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="submit" value="Submit" style="background-color:green; color:white;">
+            </td>
+        </tr>
+      </table>
+    </form>
+</body>
+</html>
