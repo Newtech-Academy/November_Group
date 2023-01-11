@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="" method="get">
+        <fieldset>
+            <legend> Participant information </legend>
+            <b>Participant 1</b><br>
+            <br>
+            First Name<span style="color: red;">*</span><br>
+            <input type="text" name="fname" style="width: 100%;" required><br>
+            <br>
+            Activity<span style="color: red;">*</span><br>
+            <input type="text" name="activity" style="width: 100%;" required><br>
+            <br>
+            Fee ($)<span style="color: red;">*</span><br>
+            <input type="number" name="fee" style="width: 100%;" required><br>
+            <br>
+            Birth Date<span style="color: red;">*</span><br>
+            <input type="date" name="birthdate" style="width: 100%;" required><br>
+            <br>
+            Grade<br>
+            <select style="width: 100%;">
+                <option>Please choose the grade</option>
+                <option>Associate degree</option>
+                <option>Bachelor's degree</option>
+                <option>College degree</option>
+                <option>Master degree</option>
+                <option>PHD</option>
+            </select>
+            <br>
+            <br>
+            <br>
+            <b>Participant 2</b><br>
+            <br>
+            First Name<span style="color: red;">*</span><br>
+            <input type="text" name="fname" style="width: 100%;" required><br>
+            <br>
+            Activity<span style="color: red;">*</span><br>
+            <input type="text" name="activity" style="width: 100%;" required><br>
+            <br>
+            Fee ($)<span style="color: red;">*</span><br>
+            <input type="number" name="fee" style="width: 100%;" required><br>
+            <br>
+            Birth Date<span style="color: red;">*</span><br>
+            <input type="date" name="birthdate" style="width: 100%;" required><br>
+            <br>
+            Grade<br>
+            <select style="width: 100%;">
+                <option>Please choose the grade</option>
+                <option>Associate degree</option>
+                <option>Bachelor's degree</option>
+                <option>College degree</option>
+                <option>Master degree</option>
+                <option>PHD</option>
+            </select>
+            <br>
+            <br>
+            City Resident?<br>
+            (non-city residents add $5.00 for each participant)<br>
+            <input type="radio" name="resident" value="yes"> Yes - I am a city resident<br>
+            <input type="radio" name="resident" value="no"> No - I am not a city resident<br>
+            <br>
+            <button style="background-color: green; color: white; width: 350px; border: none; height: 30px;">Calculate</button>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend> Household / Adult Primary Contact </legend>
+            <table width="100%">
+                <tr>
+                    <td width="50%" valign="top">
+                        First Name<span style="color: red;">*</span><br>
+                        <input type="text" name="fname" style="width: 60%;" required><br>
+                        <br>
+                        Adress 1<span style="color: red;">*</span><br>
+                        <input type="text" name="adress1" style="width: 60%;" required><br>
+                        <br>
+                        City<span style="color: red;">*</span><br>
+                        <input type="text" name="city" style="width: 60%;" required><br>
+                        <br>
+                        Email<span style="color: red;">*</span><br>
+                        <input type="email" name="email" style="width: 60%;" required><br>
+                        <br>
+                        ZIP<span style="color: red;">*</span><br>
+                        <input type="text" name="zip" style="width: 60%;" required><br>
+                    </td>
+                    <td width="50%">
+                        Last Name<span style="color: red;">*</span><br>
+                        <input type="text" name="lname" style="width: 60%;" required><br>
+                        <br>
+                        Adress 2<span style="color: red;">*</span><br>
+                        <input type="text" name="adress2" style="width: 60%;" required><br>
+                        <br>
+                        State<span style="color: red;">*</span><br>
+                        <input type="text" name="city" style="width: 60%;" required><br>
+                        <br>
+                        Phone<span style="color: red;">*</span><br>
+                        <input type="text" name="zip" style="width: 60%;" required><br> 
+                        <br>
+                        Relationship to Participants:<span style="color: red;"></span><br>
+                        <input type="radio" name="rel" value="self"> Self<br>
+                        <input type="radio" name="rel" value="Mother"> Mother<br>
+                        <input type="radio" name="rel" value="Father"> Father<br>
+                        <input type="radio" name="rel" value="Guardian"> Guardian<br>
+                        <input type="radio" name="rel" value="other"> Other
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
+        <br>
+        <input type="submit" value="Submit" style="background-color: green; color: white; border: none; width: 350px; height: 30px;">
+    </form>
+</body>
+</html>

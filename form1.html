@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="" method="get">
+        <table align="center">
+            <tr>
+                <td align="center" colspan="2">
+                    <h1>Restaurant Feedback Form</h1>
+                    <p>Please help us improve our restaurant services by filling in our feedback form.</p>
+                    <p>Thank you!</p>
+                </td>
+            </tr>
+            <tr>
+                <td width="50%">
+                    Name<span style="color: red;">*</span><br>
+                    <input type="text" name="fname" placeholder="First Name" style="width: 350px;" required>
+                </td>
+                <td width="50%">
+                    <br>
+                    <input type="text" name="lname" placeholder="Last Name" style="width: 350px;" required>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    Email<span style="color: red;">*</span><br>
+                    <input type="email" name="email" placeholder="Email" style="width: 100%;" required>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    Location you visited<span style="color: red;">*</span><br>
+                    <select style="width: 100%;" required>
+                        <option>*Please Select*</option>
+                        <option>Location 1</option>
+                        <option>Location 2</option>
+                        <option>Location 3</option>
+                        <option>Location 4</option>
+                        <option>Location 5</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    Day visited<span style="color: red;">*</span>
+                    <input type="date" name="date" style="width: 100%;" required>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    Time visited<span style="color: red;">*</span><br>
+                    <input type="time" name="time" style="width: 100%;" required>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    Dine In / Take Out<br>
+                    <input type="radio" name="dine" value="in" required> Dine In<br>
+                    <input type="radio" name="dine" value="out" required> Take Out
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    Age<span style="color: red;">*</span><br>
+                    <select style="width: 100%;" required>
+                        <option>*Please Select*</option>
+                        <option>Under 13</option>
+                        <option>13-17</option>
+                        <option>18-24</option>
+                        <option>25-34</option>
+                        <option>35-44</option>
+                        <option>45-54</option>
+                        <option>55 or older</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <table width="100%" border="1px">
+                        <tr>
+                            <th width="30%"></th>
+                            <th>Amazing</th>
+                            <th>Good</th>
+                            <th>Decent</th>
+                            <th>Disappointing</th>
+                        </tr>
+                        <tr>
+                            <td>Food Quality</td>
+                            <td align="center"><input type="radio" name="food" value="amazing"></td>
+                            <td align="center"><input type="radio" name="food" value="good"></td>
+                            <td align="center"><input type="radio" name="food" value="decent"></td>
+                            <td align="center"><input type="radio" name="food" value="Disappointing"></td>
+                        </tr>
+                        <tr>
+                            <td>Overall Service Quality</td>
+                            <td align="center"><input type="radio" name="service" value="amazing"></td>
+                            <td align="center"><input type="radio" name="service" value="good"></td>
+                            <td align="center"><input type="radio" name="service" value="decent"></td>
+                            <td align="center"><input type="radio" name="service" value="Disappointing"></td>
+                        </tr>
+                        <tr>
+                            <td>Speed of Service</td>
+                            <td align="center"><input type="radio" name="speed" value="amazing"></td>
+                            <td align="center"><input type="radio" name="speed" value="good"></td>
+                            <td align="center"><input type="radio" name="speed" value="decent"></td>
+                            <td align="center"><input type="radio" name="speed" value="Disappointing"></td>
+                        </tr>
+                        <tr>
+                            <td>Price</td>
+                            <td align="center"><input type="radio" name="price" value="amazing"></td>
+                            <td align="center"><input type="radio" name="price" value="good"></td>
+                            <td align="center"><input type="radio" name="price" value="decent"></td>
+                            <td align="center"><input type="radio" name="price" value="Disappointing"></td>
+                        </tr>
+                        <tr>
+                            <td>Overall experience</td>
+                            <td align="center"><input type="radio" name="Overall" value="amazing"></td>
+                            <td align="center"><input type="radio" name="Overall" value="good"></td>
+                            <td align="center"><input type="radio" name="Overall" value="decent"></td>
+                            <td align="center"><input type="radio" name="Overall" value="Disappointing"></td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    Any comments<br>
+                    <textarea style="width: 100%;" rows="5"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td align="center" colspan="2">
+                    <input type="submit" value="Send Feedback" style="background-color: blue; color: white; height: 40px; padding: 10px; border: none;">
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
