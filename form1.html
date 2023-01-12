@@ -5,37 +5,39 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        .center {
+            margin: auto;
+            width: fit-content;
+            text-align: center;
+            border: 0 solid blue;
+            padding: 5px;
+        }
+        .left {
+            text-align: left;
+            border: 0 solid green;
+            padding: 5px;
+        }
+    </style>
 </head>
 <body>
-    <form action="" method="get">
-        <table align="center">
-            <tr>
-                <td align="center" colspan="2">
-                    <h1>Restaurant Feedback Form</h1>
-                    <p>Please help us improve our restaurant services by filling in our feedback form.</p>
-                    <p>Thank you!</p>
-                </td>
-            </tr>
-            <tr>
-                <td width="50%">
+    <div class="center">
+        <h1>Restaurant Feedback Form</h1>
+            <p>Please help us improve our restaurant services by filling in our feedback form.</p>
+            <p>Thank you!</p>
+            <form action="" method="get">
+                <div class="left">
                     Name<span style="color: red;">*</span><br>
                     <input type="text" name="fname" placeholder="First Name" style="width: 350px;" required>
-                </td>
-                <td width="50%">
-                    <br>
                     <input type="text" name="lname" placeholder="Last Name" style="width: 350px;" required>
-                </td>
-            </tr>
-            <tr>
-                <td colspan="2">
+                    <br>
+                    <br>
                     Email<span style="color: red;">*</span><br>
                     <input type="email" name="email" placeholder="Email" style="width: 100%;" required>
-                </td>
-            </tr>
-            <tr>
-                <td colspan="2">
+                    <br>
+                    <br>
                     Location you visited<span style="color: red;">*</span><br>
-                    <select style="width: 100%;" required>
+                    <select style="width: 100%;" name="location" required>
                         <option>*Please Select*</option>
                         <option>Location 1</option>
                         <option>Location 2</option>
@@ -43,31 +45,22 @@
                         <option>Location 4</option>
                         <option>Location 5</option>
                     </select>
-                </td>
-            </tr>
-            <tr>
-                <td colspan="2">
-                    Day visited<span style="color: red;">*</span>
-                    <input type="date" name="date" style="width: 100%;" required>
-                </td>
-            </tr>
-            <tr>
-                <td colspan="2">
+                    <br>
+                    <br>
+                    Day visited<span style="color: red;">*</span><br>
+                    <input type="date" name="date" style="width: 100%" required>
+                    <br>
+                    <br>
                     Time visited<span style="color: red;">*</span><br>
                     <input type="time" name="time" style="width: 100%;" required>
-                </td>
-            </tr>
-            <tr>
-                <td colspan="2">
+                    <br>
+                    <br>
                     Dine In / Take Out<br>
                     <input type="radio" name="dine" value="in" required> Dine In<br>
-                    <input type="radio" name="dine" value="out" required> Take Out
-                </td>
-            </tr>
-            <tr>
-                <td colspan="2">
+                    <input type="radio" name="dine" value="out" required> Take Out<br>
+                    <br>
                     Age<span style="color: red;">*</span><br>
-                    <select style="width: 100%;" required>
+                    <select style="width: 100%;" name="age" required>
                         <option>*Please Select*</option>
                         <option>Under 13</option>
                         <option>13-17</option>
@@ -77,12 +70,10 @@
                         <option>45-54</option>
                         <option>55 or older</option>
                     </select>
-                </td>
-            </tr>
-            <tr>
-                <td colspan="2">
+                    <br>
+                    <br>
                     <table width="100%" border="1px">
-                        <tr>
+                        <tr align="center">
                             <th width="30%"></th>
                             <th>Amazing</th>
                             <th>Good</th>
@@ -125,20 +116,13 @@
                             <td align="center"><input type="radio" name="Overall" value="Disappointing"></td>
                         </tr>
                     </table>
-                </td>
-            </tr>
-            <tr>
-                <td colspan="2">
-                    Any comments<br>
-                    <textarea style="width: 100%;" rows="5"></textarea>
-                </td>
-            </tr>
-            <tr>
-                <td align="center" colspan="2">
-                    <input type="submit" value="Send Feedback" style="background-color: blue; color: white; height: 40px; padding: 10px; border: none;">
-                </td>
-            </tr>
-        </table>
-    </form>
+                    <br>
+                    Any comments:<br>
+                    <textarea style="width: 100%;" rows="5" name="comment"></textarea>
+                    <br>
+                </div>
+                <input type="submit" value="Send Feedback" style="background-color: blue; color: white; height: 40px; padding: 10px; border: none;">
+            </form>
+    </div>
 </body>
 </html>
